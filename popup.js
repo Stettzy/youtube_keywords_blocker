@@ -39,9 +39,8 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('keywords').addEventListener('keydown', function (e) {
         // If Enter is pressed without Shift key (Shift+Enter allows for new lines)
         if (e.key === 'Enter') {
-            // Wait for the new line to be added, then save
             setTimeout(() => {
-                // Save the keywords after the new line is added
+                // This is purely a test
                 saveAndApplyFilters();
             }, 10);
         }
